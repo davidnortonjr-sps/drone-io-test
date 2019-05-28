@@ -1,7 +1,7 @@
 
 
 
-local foo() = {
+local foo = {
   name: 'mynewstep',
   image: 'golang',
   commands: [
@@ -13,7 +13,7 @@ local foo() = {
 
 
 {
-  kind: 'Pipeline',
-  name: 'Default',
-  steps: [foo()]
+  kind: 'pipeline',
+  name: 'default',
+  steps: [foo]
 }
