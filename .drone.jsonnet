@@ -1,7 +1,13 @@
 
 
 
-local foo = import('foo.jsonnet');
+local foo = {
+  name: 'mynewstep',
+  image: 'golang',
+  commands: [
+    'ls -la',
+  ],
+};
 
 
 
