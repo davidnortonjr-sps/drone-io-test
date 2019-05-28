@@ -1,7 +1,4 @@
 {
-  name: "mynewstep",
-  image: "golang",
-  commands: [
-    "ls -la /"
-  ]
+  name: 'mynewstep',
+  image: 'golang'.
 }
