@@ -11,9 +11,10 @@ local foo = {
 
 
 
-
+[
 {
   kind: 'pipeline',
   name: 'default',
   steps: [foo]
 }
+]
