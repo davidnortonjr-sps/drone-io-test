@@ -1,4 +1,3 @@
-local foo = import 'foo.jsonnet';
 
 {
   kind: 'Pipeline',
