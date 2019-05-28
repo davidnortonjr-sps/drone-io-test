@@ -1,4 +1,4 @@
 {
   name: 'mynewstep',
-  image: 'golang'.
+  image: 'golang',
 }
