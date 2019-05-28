@@ -1,7 +1,7 @@
 
 
 
-local foo = import 'foo.jsonnet';
+local foo = import('foo.jsonnet');
 
 
 
