@@ -1,4 +1,4 @@
-local foo = import 'foo.libsonnet';
+local foo = import 'foo.jsonnet';
 
 {
   kind: 'Pipeline',
